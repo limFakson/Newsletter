@@ -1,0 +1,142 @@
+body {
+    background-color: hsl(234, 29%, 20%);
+    width: 1440px;
+}
+
+.Reborn {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 100px 400px 0px 300px;
+    height: 450px;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+.format {
+    padding-left: 40px;
+    padding-top: 5px;
+}
+
+h1 {
+    font-family: roboto;
+    font-size: 35px;
+    font-weight: 800;
+    color: hsl(234, 29%, 20%);
+}
+
+p {
+    font-family: roboto;
+    font-size: 13px;
+    font-weight: 400;
+    padding-right: 20px;
+    color: hsl(234, 29%, 20%);
+}
+
+h3 {
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 4px;
+    padding-right: 20px;
+    color: hsl(234, 29%, 20%);
+}
+
+input {
+    border: 0.57px solid hsl(234, 29%, 20%);
+    border-radius: 10px;
+    padding: 12px 60px 12px 10px;
+    font-family: roboto;
+    opacity: 60%;
+    cursor: pointer;
+}
+
+input :active {
+    cursor: pointer;
+}
+
+.button {
+    border: 0px solid transparent;
+    border-radius: 15px;
+    padding: 15px 40px;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    cursor: pointer;
+    opacity: 100%;
+}
+
+.button:hover {
+    background-color: hsl(4, 100%, 67%);
+    box-shadow: 0px 7px hsla(4, 100%, 67%, 0.294);
+}
+
+.button :active {
+    background-color: hsl(4, 100%, 67%);
+    box-shadow: 0px 7px hsla(4, 100%, 67%, 0.294);
+}
+
+table {
+    margin-top: -15px;
+}
+
+form {
+    margin-top: -10px
+}
+
+.coin {
+    padding-top: 3px;
+    width: 15px;
+}
+
+.main img {
+    height: 430px;
+    width: auto;
+    padding-right: 10px;
+}
+
+
+/* Thnak_you page */
+
+
+/* Trying to style two pages with one css */
+
+.message {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 580px 0px 500px;
+    padding: 30px 0px 30px 30px;
+    border-radius: 20px;
+}
+
+.ticked {
+    width: 40px;
+}
+
+.secondline {
+    margin-top: -10px;
+}
+
+button {
+    border: 0px solid transparent;
+    border-radius: 15px;
+    padding: 15px 80px;
+    margin: 10px;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+}
