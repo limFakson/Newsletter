@@ -1,0 +1,85 @@
+@media screen and (min-width: 501px) {
+    .img2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        width: 100%;
+        background-color: white;
+        margin: 0px;
+        padding: 0px;
+    }
+    .Reborn {
+        border-radius: 0px;
+        margin: 0px;
+    }
+    .main {
+        display: none;
+        top: 0em;
+    }
+    .img2 {
+        width: 100%;
+        margin-bottom: 0px;
+        padding: 0px;
+        height: 400px;
+        margin-top: -3.4em;
+    }
+    .format {
+        padding: 10px;
+        margin-top: 0px;
+        margin-bottom: 0em;
+        margin-left: 0.5em;
+        margin-right: 1em;
+    }
+    .container {
+        margin: 0px;
+        padding: 0px;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 16px;
+        padding-left: 0.9em;
+        padding-right: 4em;
+    }
+    .coin {
+        padding: 0px;
+    }
+    table {
+        margin-bottom: 0px;
+        margin-top: -14px;
+    }
+    form {
+        margin: 0px;
+    }
+    input {
+        padding: 11px 14em 12px 10px;
+    }
+    .button {
+        padding: 16px 13em;
+        margin: 0px;
+        margin-top: 1em;
+    }
+    .message {
+        margin: 10em 0px 0em 10px;
+        padding: 0px;
+        padding-left: 20px;
+    }
+    .message h1 {
+        margin-top: 1em;
+    }
+    .ticked {
+        width: 60px;
+    }
+    button {
+        margin-top: 25em;
+        margin-bottom: 0px;
+        padding: 1.7em 10em;
+    }
+}
