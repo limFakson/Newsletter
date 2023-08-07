@@ -51,7 +51,7 @@
                         <span class="error" aria-live="polite"></span>
                       </label>
 
-                    <button class="button">Submit</button>
+                    <input class="button" type="submit" value="submit"></input>
                 </form>
 
             </div>
@@ -99,7 +99,7 @@
         form.addEventListener("submit", (event) => {
             event.preventDefault();
 
-            const isValid = email.value.length != 0 || emailRegExp.test(email.value);
+            const isValid = email.value.length === '' || emailRegExp.test(email.value);
             if (!isValid) {
                 email.className = "invalid";
                 error.textContent = "valid email required";
